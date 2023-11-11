@@ -89,7 +89,6 @@ public class ExtendCraftingRange : IMod
             }
         }
         chestsToAdd = _chests;
-        UnityEngine.Debug.Log($"Dodano: {chestsToAdd.Count}");
     }
 
     private static bool IsInRange(Vector3 position1, Vector3 position2, float distanceThreshold)
