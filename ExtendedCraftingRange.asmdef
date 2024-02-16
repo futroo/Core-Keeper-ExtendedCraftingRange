@@ -1,5 +1,5 @@
 {
-    "name": "ExtendCraftingRange",
+    "name": "ExtendedCraftingRange",
     "rootNamespace": "",
     "references": [
         "Unity.Burst",
@@ -23,6 +23,7 @@
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
+        "Discord.SDK.dll",
         "DomainReloadHelper.Runtime.dll",
         "Facepunch.Steamworks.Win64.dll",
         "FewesLight.dll",
@@ -39,8 +40,10 @@
         "Pug.ECS.Components.dll",
         "Pug.ECS.ConditionExtensions.dll",
         "Pug.ECS.Conversion.dll",
+        "Pug.ECS.Extensions.dll",
         "Pug.ECS.Hybrid.dll",
         "Pug.Mods.dll",
+        "Pug.ObjectIDCategory.dll",
         "Pug.Objects.dll",
         "Pug.Other.dll",
         "Pug.PP.dll",
@@ -85,9 +88,9 @@
         "System.Numerics.Vectors.dll",
         "System.Runtime.CompilerServices.Unsafe.dll",
         "System.Text.Json.dll",
+        "WorldPatcher.dll",
         "ZipSaveFolder.dll",
-        "0Harmony.dll",
-        "Unity.Collections.LowLevel.ILSupport.dll"
+        "0Harmony.dll"
     ],
     "autoReferenced": false,
     "defineConstraints": [],
